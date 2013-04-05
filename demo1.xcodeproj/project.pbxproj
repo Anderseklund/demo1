@@ -10,6 +10,7 @@
 		9A9C155C170ECB900033C90E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A9C155B170ECB900033C90E /* Foundation.framework */; };
 		9A9C155F170ECB900033C90E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C155E170ECB900033C90E /* main.m */; };
 		9A9C1563170ECB900033C90E /* demo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A9C1562170ECB900033C90E /* demo1.1 */; };
+		9A9C156B170ECBA50033C90E /* DemoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9C156A170ECBA50033C90E /* DemoFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		9A9C155E170ECB900033C90E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A9C1561170ECB900033C90E /* demo1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "demo1-Prefix.pch"; sourceTree = "<group>"; };
 		9A9C1562170ECB900033C90E /* demo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = demo1.1; sourceTree = "<group>"; };
+		9A9C1569170ECBA50033C90E /* DemoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoFile.h; path = ../DemoFile.h; sourceTree = "<group>"; };
+		9A9C156A170ECBA50033C90E /* DemoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoFile.m; path = ../DemoFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 				9A9C155D170ECB900033C90E /* demo1 */,
 				9A9C155A170ECB900033C90E /* Frameworks */,
 				9A9C1559170ECB900033C90E /* Products */,
+				9A9C1560170ECB900033C90E /* Supporting Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,8 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				9A9C155E170ECB900033C90E /* main.m */,
-				9A9C1562170ECB900033C90E /* demo1.1 */,
-				9A9C1560170ECB900033C90E /* Supporting Files */,
+				9A9C1569170ECBA50033C90E /* DemoFile.h */,
+				9A9C156A170ECBA50033C90E /* DemoFile.m */,
 			);
 			path = demo1;
 			sourceTree = "<group>";
@@ -83,9 +87,11 @@
 		9A9C1560170ECB900033C90E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A9C1562170ECB900033C90E /* demo1.1 */,
 				9A9C1561170ECB900033C90E /* demo1-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = demo1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A9C155F170ECB900033C90E /* main.m in Sources */,
+				9A9C156B170ECBA50033C90E /* DemoFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
